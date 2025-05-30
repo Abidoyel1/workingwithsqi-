@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .house{
+    width: 1550px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.right img{
+    width: 690px;
+    height: 490px;
+    margin-left: 0px;
+    margin-top: 120px;
+}
+.left img{
+    width: 220px;
+    height: 490px;
+    margin-top: 120px;
+}
+.center{
+    margin-left: 20px;
+}
+.center p{
+    margin-top: 200px;
+    font-size: 50px;
+    margin-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+}
+.center h3{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+.pin button{
+    background-color: #e03131;
+    width: 140px;
+    height: 50px;
+    margin-left: 10px;
+    border: thin solid white;
+    font-size: 20px;
+    border-radius: 25px;
+    color: white;
+}
+.topup{
+    display: flex;
+    position: fixed;
+    background-color: white;
+}
+.top img{
+width: 190px;
+height: 60px;
+margin-left: 0px;
+}
+.top button{
+    margin-left: 380px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    margin-top: 17px;
+    
+}
+.top i{
+    margin-left: px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.toplast button{
+    width: 180px;
+    height: 50px;
+    background-color: #e03131;
+    color: white;
+    font-size: 16px;
+    margin-left: 30px;
+    border: thin solid white;
+    border-radius: 25px;
+    margin-top: 17px;
+}
+.picture{
+    background-color: rgb(241, 240, 250);
+    width: 100%;
+    height: 600px;
+    /* background-image: url(/HTML/multimidia/image/p1.png); */
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: right corner;
+
+}
+.second img{
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 30px;
+    border: 5px solid white;
+    margin-top: 30px;
+    z-index: 1;
+}   
+.marquee{
+    margin-top: 20px;
+    z-index: -2;
+  
+}
+.fixed{
+position: absolute;
+    margin-left: 1200px;
+}
+.praise{
+    display: flex;
+}
+.tall h1{
+    font-size: 42px;
+    margin-left: 120px;
+}
+.ike{
+    margin-left: 60px;
+}
+.adeola{
+    color: #e03131;
+    border: thin solid red;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+.tall h3{
+    margin-left: 120px;
+    font-size: 22px;
+}
+.link a{
+    font-size: 20px;
+    color: #e03131;
+    margin-left: 120px;
+}
+.ayinke{
+    margin-left: 120px;
+}
+.short{
+    width: 300px;
+    height: 300px;
+    background-color: #fbe2e2;
+    border-radius: 700px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.white span{
+    padding-left: 200px;
+}
+.three h1{
+    font-size: 45px;
+}
+.kenny{
+   margin-left: 120px;
+   display: flex;
+}
+.split h2{
+    margin-left: 190px;
+}
+.split ul{
+    margin-left: 190px;
+    font-size: 25px;
+    color: black;
+}
+.split li{
+    color: black;
+}
+.fouth{
+    display: flex;
+    margin-left: 120px;
+}
+.four h1{
+    font-size: 40px;
+}
+.five{
+    margin-left: 400px;
+}
+.lg img{
+    width: 70px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.sixth{
+    display: flex;
+    margin-left: 120px;
+}
+.sam img{
+    width: 550px;
+    height: 450px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.six{
+    margin-left: 180px;
+}
+.six h1{
+    font-size: 40px;
+}
+.six h3{
+    font-size: 20px;
+    height:    150px;
+}
+.main {  /* width: 1550px; */
+            /* height: 2000px; */
+            background-color: #ffff;
+            padding-bottom: 50px;
+            margin-left: px;
+        }
+
+        .first img {
+            width: 610px;
+            height: 450px;
+            margin-left: 60px;
+        }
+
+        .first {
+            display: flex;
+        }
+        .first h3{
+            font-size: 20px;
+        }
+
+        .body {
+            background-color: #f0f0f7;
+            width: 1520px;
+            height: 400px;
+        }
+
+        .Board h1 {
+            font-size: 40px;
+            margin-left: 120px;
+        }
+
+        .first h3 {
+            margin-left: 60px;
+        }
+
+        .first a {
+            color: red;
+            margin-left: 60px;
+            font-size: 20px;
+        }
+
+        .favour img {
+            width: 60px;
+            height: 60px;
+            padding-top: 15px;
+            margin-left: 110px;
+        }
+
+        .shola h3 {
+            margin-left: 100px;
+            font-size: 25px;
+            /* margin-top: 60px */
+            padding-top: 90px;
+        }
+
+        .james {
+            display: flex;
+        }
+
+        .ikeoluwa {
+            margin-left: 30px;
+
+        }
+
+        .adeola {
+            margin-left: 70px;
+            padding-top: 39px;
+            font-size: 20px;
+            color: black;
+            border: 0px;
+        }
+
+        .adeola a {
+            color: black;
+        }
+
+        .arrow {
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+        .john img{
+            width: 550px;
+    height: 450px;
+    margin-left: 100px;
+    margin-top: 30px;
+        }
+        .seventh{
+            display: flex;
+            margin-left: 120px;
+        }
+        .seven{
+    margin-left: 180px;
+}
+.seven h1{
+    font-size: 40px;
+}
+.seven h3{
+    font-size: 20px;
+    height:    150px;
+}
+
+.eighty h1{
+    font-size: 45px;
+}
+.eighteen{
+    display: flex;
+}
+.eight{
+    margin-left: 100px;
+    font-size: 16px;
+}
+.baby{
+    background-color: #e03131;
+    height: 200px;
+    display: flex;
+}
+.ayoni h1{
+    color: white;
+    margin-top: 80px;
+    margin-left: 90px;
+    font-size: 40px;
+}
+.baby button{
+    margin-left: 420px;
+    margin-top: 75px;
+    background-color: white;
+    color: #e03131;
+    width: 150px;
+    height: 60px;
+    border-radius: 35px;
+    font-size: 20px;
+    border: thin solid white;
+}
+.solar{
+height: 450px;
+    background-color: #29292c;
+}
+
+.light{
+     
+    display: flex;
+}
+.sun img{
+    width: 250px;
+    height: 70px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.pannel{
+    display: flex;
+    margin-left: 340px;
+    margin-top: 50px;
+}
+.ac{
+    margin-left: 150px;
+    font-size: 23px;
+    color: white;
+}
+.last{
+    display: flex;
+    margin-left: 100px;
+}
+.jet{
+    margin-left: 280px;
+}
+
+.dropdown button{
+    background-color: white;
+    color: black ;
+    /* padding: 10px 15px; */
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+margin-top: 16px;
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+    min-width: 100px;
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    color: #e03131;
+}
+.dropdown a:hover{
+    color: red;
+}
+.case li{
+    display: inline-block;
+    background-color: white;
+    width: 110px;
+    color: black;
+    border: 0px;
+}
+.case button{
+    background-color: white;
+    color: black ;
+    /* padding: 10px 15px; */
+    border: none;
+    cursor: pointer;
+    margin: 0px;
+}
+.case a:hover {
+    color: #e03131;
+    text-decoration: none;
+
+}
+.case a{
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+}
+@media(max-width:1024px) {
+    .house{
+        /* background-color: aqua; */
+        padding: 5px;
+        flex-direction: column;
+        display: flex;
+
+        
+    }
+}
+@media(max-width:1024px) {
+    .left{
+        display: none;
+    }
+}
+@media(max-width:105px) {
+    .house:hover{
+        from{
+            transform: 105px;
+        }
+        to{
+            transform: 1024px;
+        }
+        
+    }
+}
+
+</style>
+<body>
+     <div class="topup">
+            <div class="top">
+                <img src="/HTML/multimidia/image/b1111.jpg" alt="">
+            </div>
+            <div style="margin-left: 200px; display: flex;">
+                <div class="dropdown">
+                    <button>services</button>
+                    <div class="content">
+                        <a href="">Development</a>
+                        <a href="">Ruby on Rails</a>
+                        <a href="">Hotwire</a>
+                        <a href="">AI and Machine Learning</a>
+                        <a href="">Maintenance</a>
+                        <a href="">mobile</a>
+                    </div>
+                </div>
+                <div class="case">
+                    <ul>
+                        <li>
+                            <button> <a href="https://thoughtbot.com/case-studies">case-studies</a></button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="case">
+                    <ul>
+                        <li>
+                            <button style="width: 50px;"> <a
+                                    href="https://thoughtbot.com/case-studies">Blog</a></button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button>Resources </button>
+                    <div class="content">
+                        <a href="">Development</a>
+                        <a href="">Ruby on Rails</a>
+                        <a href="">Hotwire</a>
+                        <a href="">AI and Machine Learning</a>
+                        <a href="">Maintenance</a>
+                        <a href="">mobile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="top">
+                <button> <i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="toplast">
+                <button>let's get started!</button>
+            </div>
+        </div>
+           </div>
+        <div class="house">
+            <div class="left">
+                <img src="/HTML/multimidia/image/b111.jpg" alt="">
+            </div>
+            <div class="center">
+                <p>Let’s make your product <br> and team a success</p>
+                <h3>thoughtbot is your expert partner for product design and <br> development. We help our clients lead
+                    the way through better <br>products, faster teams, and stronger growth.</h3>
+                <br> <br>
+                <div class="pin">
+                    <button>let's talk</button>
+                </div>
+            </div>
+            <div class="right">
+                <img src="/HTML/multimidia/image/b11.jpg" alt="">
+            </div>
+        </div>
+</body>
+</html>
